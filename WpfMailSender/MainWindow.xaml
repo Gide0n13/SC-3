@@ -1,0 +1,61 @@
+﻿<Window x:Class="WpfMailSender.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMailSender"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="281*"/>
+            <RowDefinition Height="14*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="Файл"/>
+            <MenuItem Header="Помощь"/>
+        </Menu>
+        <TabControl Grid.Row="1">
+            <TabItem Header="Редактирование писем">
+                <StackPanel Height="341" Width="776">
+                    <TextBox x:Name="tbSubject" Width="200" HorizontalAlignment="Left"/>
+                    <Label Content="Название письма" Width="Auto"/>
+                    <Label Content="Содержимое письма" Width="Auto"/>
+                    <TextBox Grid.Row="1" x:Name="tbBody" HorizontalAlignment="Stretch"
+                             VerticalAlignment="Stretch" Height="100" AcceptsReturn="True"
+                             ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+                    <Label Content="From"/>
+                    <ComboBox x:Name="cbFrom" Text="tallon300@yandex.ru">
+                        <ComboBoxItem Content="tallon300@yandex.ru"/>
+                    </ComboBox>
+                    <Label Content="To"/>
+                    <ComboBox x:Name="cbTo" Text="tallon300@yandex.ru">
+                        <ComboBoxItem Content="tallon300@yandex.ru"/>
+                    </ComboBox>
+                    <Button x:Name="btnSend" Width="Auto" Content="Отправить немедленно" Click="btnSend_Click"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Настойки">
+                <WrapPanel Height="auto" VerticalAlignment="Top" Width="350" HorizontalAlignment="Left">
+                    <Label Content="Сервер" Width="Auto"/>
+                    <TextBox Grid.Row="1" x:Name="tbServer" Width="200" HorizontalAlignment="Left" Text="smtp.yandex.ru"/>
+                    <Label Content="Порт" Width="Auto"/>
+                    <TextBox Grid.Row="1" x:Name="tbPort" Width="30" Text="25"/>
+                    <Line></Line>
+                    <Label Content="Имя пользователя" Width="Auto"/>
+                    <TextBox Grid.Row="1" x:Name="tbUserName" Width="350" Text="tallon300@yandex.ru"/>
+                    <Label Content="Пароль" Width="Auto"/>
+                    <PasswordBox Grid.Row="1" x:Name="tbPassword" Width="350" PasswordChar="*" Password="12345678"/>
+                </WrapPanel>
+            </TabItem>
+            <TabItem Header="Журнал">
+                <TextBox x:Name="tbLog" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" AcceptsReturn="True"
+                         ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto" Width="785" Height="338"/>
+            </TabItem>
+        </TabControl>
+        <StatusBar x:Name="sbStatus" Grid.Row="2">
+            <Label x:Name="lbStatus"/>
+        </StatusBar>
+    </Grid>
+</Window>
