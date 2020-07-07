@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMailSender", "WpfMailSen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework 1", "Homework 1", "{593D5C38-1AA9-4D1B-91CC-7525ECF59925}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework 2", "Homework 2", "{6A10C784-524C-4937-97BD-26C3C4847085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMailSender", "Homework 2\WpfMailSender\WpfMailSender.csproj", "{97ACF255-D7DC-4574-A370-E9CFF62E0F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabSwitcher", "TabSwitcher\TabSwitcher.csproj", "{43329FC0-4D19-47FB-88C8-5216E88563C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +23,22 @@ Global
 		{4B91F70B-98D8-4E79-A83C-91C015E1E9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B91F70B-98D8-4E79-A83C-91C015E1E9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B91F70B-98D8-4E79-A83C-91C015E1E9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97ACF255-D7DC-4574-A370-E9CFF62E0F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97ACF255-D7DC-4574-A370-E9CFF62E0F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97ACF255-D7DC-4574-A370-E9CFF62E0F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97ACF255-D7DC-4574-A370-E9CFF62E0F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43329FC0-4D19-47FB-88C8-5216E88563C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43329FC0-4D19-47FB-88C8-5216E88563C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43329FC0-4D19-47FB-88C8-5216E88563C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43329FC0-4D19-47FB-88C8-5216E88563C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4B91F70B-98D8-4E79-A83C-91C015E1E9E0} = {593D5C38-1AA9-4D1B-91CC-7525ECF59925}
+		{97ACF255-D7DC-4574-A370-E9CFF62E0F14} = {6A10C784-524C-4937-97BD-26C3C4847085}
+		{43329FC0-4D19-47FB-88C8-5216E88563C1} = {6A10C784-524C-4937-97BD-26C3C4847085}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47B2E8D8-1F5C-42E4-AB10-DE46D63D8C58}

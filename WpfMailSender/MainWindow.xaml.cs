@@ -43,5 +43,18 @@ namespace WpfMailSender
             tbLog.Text += eMailSendService.Status + Environment.NewLine;
             tbLog.Text += eMailSendService.ErrorInfo + Environment.NewLine;
         }
+
+        private void miClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void tscTabSwitcherControl_btnNextClick(object sender, RoutedEventArgs e)
+        {
+            if (tcTabControl.SelectedIndex < tcTabControl.Items.Count)
+                tcTabControl.SelectedIndex++;
+            else
+                tcTabControl.SelectedIndex = 0;
+        }
     }
 }
