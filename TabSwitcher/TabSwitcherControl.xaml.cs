@@ -100,7 +100,7 @@ namespace TabSwitcher
 
         private void btnPrevious_Click(object sender, RoutedEventArgs e)
         {
-            btnPreviousClick?.Invoke(sender, e);
+            if (btnPreviousClick != null) btnPreviousClick.Invoke(sender, e);
         }
     }
 }

@@ -1,0 +1,60 @@
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\bin\Debug\WpfMailSender.exe.config
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\bin\Debug\WpfMailSender.exe
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\bin\Debug\WpfMailSender.pdb
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\WpfMailSender.csprojAssemblyReference.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\MainWindow.g.cs
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\App.g.cs
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\WpfMailSender_MarkupCompile.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\WpfMailSender_MarkupCompile.lref
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\MainWindow.baml
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\WpfMailSender.g.resources
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\WpfMailSender.Properties.Resources.resources
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\WpfMailSender.csproj.GenerateResource.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\WpfMailSender.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\WpfMailSender.exe
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\WpfMailSender.pdb
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\Theme.baml
+C:\Users\Сергей\Desktop\Homework 3\SC-3\WpfMailSender\obj\Debug\App.baml
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\bin\Debug\WpfMailSender.exe.config
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\bin\Debug\WpfMailSender.exe
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\bin\Debug\WpfMailSender.pdb
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\Theme.baml
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\MainWindow.g.cs
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\App.g.cs
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\WpfMailSender_MarkupCompile.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\WpfMailSender_MarkupCompile.lref
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\App.baml
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\MainWindow.baml
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\WpfMailSender.g.resources
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\WpfMailSender.Properties.Resources.resources
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\WpfMailSender.csproj.GenerateResource.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\WpfMailSender.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\WpfMailSender.exe
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\WpfMailSender.pdb
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\bin\Debug\TabSwitcher.dll
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\bin\Debug\TabSwitcher.pdb
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\WpfMailSender.csprojAssemblyReference.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 2\WpfMailSender\obj\Debug\WpfMailSender.csproj.CopyComplete
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\bin\Debug\WpfMailSender.exe.config
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\bin\Debug\WpfMailSender.exe
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\bin\Debug\WpfMailSender.pdb
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\bin\Debug\TabSwitcher.dll
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\bin\Debug\TabSwitcher.pdb
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\WpfMailSender.csprojAssemblyReference.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\Theme.baml
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\App.g.cs
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\WpfMailSender_MarkupCompile.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\WpfMailSender_MarkupCompile.lref
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\App.baml
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\WpfMailSender.g.resources
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\WpfMailSender.Properties.Resources.resources
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\WpfMailSender.csproj.GenerateResource.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\WpfMailSender.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\WpfMailSender.csproj.CopyComplete
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\WpfMailSender.exe
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\WpfMailSender.pdb
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\bin\Debug\TabSwitcherRE.dll
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\bin\Debug\TabSwitcherRE.pdb
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\View\MainWindow.baml
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\View\MainWindow.g.cs
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\WpfMailSender\obj\Debug\GeneratedInternalTypeHelper.g.cs

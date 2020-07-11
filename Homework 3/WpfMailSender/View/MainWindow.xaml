@@ -1,0 +1,72 @@
+﻿<Window x:Class="WpfMailSender.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:TabSwitcher1="clr-namespace:TabSwitcherRE;assembly=TabSwitcherRE"
+        xmlns:vm="clr-namespace:WpfMailSender.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <vm:ViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="281*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="Файл"/>
+            <MenuItem Header="Помощь"/>
+        </Menu>
+        <TabControl Grid.Row="1" Name="tcTabControl">
+            <TabItem Header="Редактирование писем">
+                <StackPanel Height="341" Width="776">
+                    <TextBox x:Name="tbSubject" Width="200" HorizontalAlignment="Left" Text="{Binding Path=EMailInfo.Subject, UpdateSourceTrigger=PropertyChanged,Mode=OneWayToSource}"/>
+                    <Label Content="Название письма" Width="Auto"/>
+                    <Label Content="Содержимое письма" Width="Auto"/>
+                    <TextBox Grid.Row="1" x:Name="tbBody" HorizontalAlignment="Stretch"
+                             VerticalAlignment="Stretch" Height="100" AcceptsReturn="True"
+                             ScrollViewer.VerticalScrollBarVisibility="Auto" Text="{Binding Path=EMailInfo.Body, UpdateSourceTrigger=PropertyChanged,Mode=OneWayToSource}"/>
+                    <Label Content="From"/>
+                    <ComboBox x:Name="cbFrom" Text="{Binding Path=EMailInfo.From, UpdateSourceTrigger=PropertyChanged,Mode=OneWayToSource}">
+                        <ComboBoxItem>tallon300@yandex.ru</ComboBoxItem>
+                    </ComboBox>
+                    <Label Content="To"/>
+                    <ComboBox x:Name="cbTo" Text="{Binding Path=EMailInfo.To, UpdateSourceTrigger=PropertyChanged,Mode=OneWayToSource}">
+                        <ComboBoxItem>tallon300@yandex.ru</ComboBoxItem>
+                    </ComboBox>
+                    <Button x:Name="btnSend" Width="Auto" Content="Отправить немедленно" Command="{Binding ClickSend}"/>
+                    <Button x:Name="btnSendbyRecipients" Width="Auto" Content="Отправить всем" Command="{Binding ClickSendAll}"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Настойки">
+                <WrapPanel Height="auto" VerticalAlignment="Top" Width="350" HorizontalAlignment="Left">
+                    <Label Content="Сервер" Width="Auto"/>
+                    <TextBox Grid.Row="1" x:Name="tbServer" Width="200" HorizontalAlignment="Left" Text="{Binding Path=EMailInfo.SmtpClient, UpdateSourceTrigger=PropertyChanged,Mode=OneWayToSource}"/>
+                    <Label Content="Порт" Width="Auto"/>
+                    <TextBox Grid.Row="1" x:Name="tbPort" Width="30" Text="{Binding Path=EMailInfo.Port, UpdateSourceTrigger=PropertyChanged,Mode=OneWayToSource}"/>
+                    <Line></Line>
+                    <Label Content="Имя пользователя" Width="Auto"/>
+                    <TextBox Grid.Row="1" x:Name="tbUserName" Width="350" Text="{Binding Path=EMailInfo.Sender, UpdateSourceTrigger=PropertyChanged,Mode=OneWayToSource}"/>
+                    <Label Content="Пароль" Width="Auto"/>
+                    <TextBox Grid.Row="1" x:Name="tbPassword" Width="350" Text="{Binding Path=EMailInfo.Password, UpdateSourceTrigger=PropertyChanged,Mode=OneWayToSource}"/>
+                </WrapPanel>
+            </TabItem>
+            <TabItem Header="Журнал">
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Height="309" Width="773" TextTrimming="CharacterEllipsis" TextWrapping="Wrap" Text="{Binding Path=Log}"/>
+            </TabItem>
+            <TabItem Header="Списки">
+                <DataGrid x:Name="dgListRecipients" Width="758" Height="293" Margin="10"/>
+            </TabItem>
+        </TabControl>
+        <ToolBarTray x:Name="sbStatus" Grid.Row="2">
+            <ToolBar>
+                <TabSwitcher1:TabSwitcherControl x:Name="tscTabSwitcherControl" btnPreviousClick="tscTabSwitcherControl_btnPreviousClick"
+                 btnNextClick="tscTabSwitcherControl_btnNextClick" PrevText="Prev" NextText="Next"/>
+                <Label x:Name="lbStatus"/>
+            </ToolBar>
+        </ToolBarTray>
+    </Grid>
+</Window>

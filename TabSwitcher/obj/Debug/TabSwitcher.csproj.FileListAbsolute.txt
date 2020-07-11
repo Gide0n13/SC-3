@@ -10,4 +10,3 @@ C:\Users\Сергей\Desktop\Homework 3\SC-3\TabSwitcher\obj\Debug\TabSwitcher.
 C:\Users\Сергей\Desktop\Homework 3\SC-3\TabSwitcher\obj\Debug\TabSwitcher.pdb
 C:\Users\Сергей\Desktop\Homework 3\SC-3\TabSwitcher\obj\Debug\TabSwitcherControl.g.cs
 C:\Users\Сергей\Desktop\Homework 3\SC-3\TabSwitcher\obj\Debug\TabSwitcherControl.baml
-C:\Users\Сергей\Desktop\Homework 3\SC-3\TabSwitcher\obj\Debug\TabSwitcher.csprojAssemblyReference.cache

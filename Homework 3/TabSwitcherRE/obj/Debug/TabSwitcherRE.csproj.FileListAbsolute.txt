@@ -1,0 +1,13 @@
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\bin\Debug\TabSwitcherRE.dll
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\bin\Debug\TabSwitcherRE.pdb
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\obj\Debug\TabSwitcherControl.g.cs
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\obj\Debug\TabSwitcherRE_MarkupCompile.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\obj\Debug\TabSwitcherRE_MarkupCompile.lref
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\obj\Debug\TabSwitcherControl.baml
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\obj\Debug\TabSwitcherRE.g.resources
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\obj\Debug\TabSwitcherRE.Properties.Resources.resources
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\obj\Debug\TabSwitcherRE.csproj.GenerateResource.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\obj\Debug\TabSwitcherRE.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\obj\Debug\TabSwitcherRE.dll
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\obj\Debug\TabSwitcherRE.pdb
+C:\Users\Сергей\Desktop\Homework 3\SC-3\Homework 3\TabSwitcherRE\obj\Debug\TabSwitcherRE.csprojAssemblyReference.cache
